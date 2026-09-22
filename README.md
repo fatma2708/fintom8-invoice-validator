@@ -16,7 +16,7 @@ cp .env.example .env
 Place your invoice PDF at `data/invoice.pdf`, or pass a path directly.
 
 `GOOGLE_API_KEY` in `.env` is required. Extraction uses Gemini
-(`gemini-1.5-pro` via `langchain-google-genai`) with structured output.
+(`gemini-3.6-flash` via `langchain-google-genai`) with structured output.
 
 ## Run
 
